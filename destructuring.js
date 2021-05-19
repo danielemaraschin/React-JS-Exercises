@@ -16,9 +16,13 @@ console.log(num1, num2)
 
 const [nume1, nume2] = [1,2]
 console.log(nume1, nume2)
-*/
+
 const [numer1, numer2] = [1, 2, 3, 4, 5]
 console.log(numer1, numer2)
 
 const [numero1, numero2, outros] = [1, 2, 3, 4, 5]
 console.log(numero1, numero2, outros)
+*/
+
+const [numb1, numb2, ...outrosnumb] = [1, 2, 3, 4, 5]
+console.log(numb1, numb2, outrosnumb)
